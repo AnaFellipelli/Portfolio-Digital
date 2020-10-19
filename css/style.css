@@ -30,7 +30,7 @@
 html,
 body {
   height: 100%;
-  font-family: "Josefin Sans", sans-serif;
+  font-family: Futura, sans-serif;
   -webkit-font-smoothing: antialiased;
 }
 
@@ -43,7 +43,7 @@ h6 {
   margin: 0;
   color: #111111;
   font-weight: 400;
-  font-family: "Play", sans-serif;
+  font-family: lust-display, serif;
 }
 
 h1 {
@@ -72,7 +72,7 @@ h6 {
 
 p {
   font-size: 16px;
-  font-family: "Josefin Sans", sans-serif;
+  font-family: Futura, sans-serif;
   color: #adadad;
   font-weight: 400;
   line-height: 26px;
@@ -125,9 +125,8 @@ ol {
   margin-bottom: 6px;
 }
 .section-title h2 {
-  color: #000000;
+  color: #FF0707;
   font-weight: 700;
-  text-transform: uppercase;
   position: relative;
   padding-bottom: 25px;
 }
@@ -168,7 +167,7 @@ ol {
 .primary-btn {
   display: inline-block;
   font-size: 15px;
-  font-family: "Play", sans-serif;
+  font-family: lust-display, serif;
   font-weight: 700;
   padding: 14px 32px 12px;
   color: #000000;
@@ -218,7 +217,7 @@ ol {
   font-size: 15px;
   color: #000000;
   background: #555555;
-  font-family: "Play", sans-serif;
+  font-family: lust-display, serif;
   font-weight: 700;
   border: none;
   display: inline-block;
@@ -371,11 +370,12 @@ ol {
   display: none;
 }
 .header__nav__menu ul li a {
-  font-size: 15px;
-  font-family: "Play", sans-serif;
-  color: #000000;
+  font-size: 25px;
+  font-family: Futura, sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  color: #ffffff;
   display: block;
-  text-transform: uppercase;
   position: relative;
   padding: 6px 0;
 }
@@ -448,7 +448,7 @@ ol {
 .hero__slider.owl-carousel .owl-dots button {
   color: #adadad;
   font-size: 18px;
-  font-family: "Play", sans-serif;
+  font-family: lust-display, serif;
   margin-right: 16px;
   position: relative;
   display: inline-block;
@@ -479,11 +479,10 @@ ol {
 }
 
 .hero__text span {
-  color: #000000;
+  color: #fff;
   display: block;
-  font-size: 15px;
+  font-size: 80px;
   letter-spacing: 2px;
-  text-transform: uppercase;
   margin-bottom: 18px;
   position: relative;
   top: 100px;
@@ -493,12 +492,11 @@ ol {
   transition: all, 0.3s;
 }
 .hero__text h2 {
-  color: #000000;
-  font-size: 60px;
+  color: #fff;
+  font-size: 80px;
   font-weight: 700;
   line-height: 70px;
-  text-transform: uppercase;
-  margin-bottom: 38px;
+  margin-bottom: -15px;
   position: relative;
   top: 100px;
   opacity: 0;
@@ -841,7 +839,7 @@ ol {
   background: #555555;
   font-size: 15px;
   font-weight: 700;
-  font-family: "Play", sans-serif;
+  font-family: lust-display, serif;
   letter-spacing: 2px;
   text-transform: uppercase;
   display: inline-block;
@@ -1171,7 +1169,7 @@ ol {
 
 .progress-wrap h3 {
   font-size: 16px;
-  font-family: "Josefin Sans", sans-serif;
+  font-family: Futura, sans-serif;
   margin-bottom: 10px; 
   margin-top: 1rem;
 }
