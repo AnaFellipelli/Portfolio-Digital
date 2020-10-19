@@ -527,7 +527,7 @@ ol {
 
 .work__item {
   height: 311px !important;
-  width: calc(16.67% - 10px);
+  width: calc(66.67% - 10px);
   margin-right: 10px;
   margin-bottom: 10px;
   float: left;
@@ -550,7 +550,7 @@ ol {
   height: 633px !important;
   width: calc(33.33% - 10px);
 }
-.work__item.wide__item {
+.work__item.normal__item {
   width: calc(33.33% - 10px);
   height: 311px !important;
 }
@@ -2162,7 +2162,7 @@ ol {
     width: calc(50% - 10px);
   }
 
-  .work__item.wide__item {
+  .work__item.normal__item {
     width: calc(50% - 10px);
   }
 
@@ -2235,7 +2235,7 @@ ol {
     width: 100%;
   }
 
-  .work__item.wide__item {
+  .work__item.normal__item {
     width: 100%;
   }
 
