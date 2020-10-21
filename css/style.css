@@ -103,6 +103,16 @@ ol {
   margin: 0;
 }
 
+#project-media {
+  display: block;
+  margin: 0 auto;
+  height: 100%;
+}
+
+.services-page .set-bg {
+  background-color: transparent;
+}
+
 .mobile {
   display: none;
 }
@@ -1350,10 +1360,16 @@ ol {
   .container {
     max-width: 90%;
   }
+  #project-media {
+    max-width: 90%;
+  }
 }
 
 @media only screen and (min-width: 1200px) and (max-width: 1349px) {
   .container {
+    max-width: 1170px;
+  }
+  #project-media {
     max-width: 1170px;
   }
 }
@@ -1520,6 +1536,11 @@ ol {
 @media only screen and (max-width: 767px) {
   .mobile {
     display: block;
+  }
+
+  #project-media {
+    height: 22.5%;
+    width: 90%; 
   }
 
   .section-title {
