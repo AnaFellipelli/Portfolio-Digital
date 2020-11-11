@@ -479,11 +479,39 @@ var portfolioItemClick = function () {
 		TweenMax.to('.portfolio-single-inner', 1, {
 			marginTop: '50px', opacity: 0, display: 'none', onComplete() {
 				TweenMax.to('.portfolio-wrapper', 1, { marginTop: '0px', autoAlpha: 1, position: 'relative' });
-
 			}
 		});
 
-	});
+		TweenMax.to('.posts', 1, {
+			marginTop: '0px', autoAlpha: 1, position: 'relative', onComplete() {
+				TweenMax.set('.posts', { visibility: 'visible', display: 'block', height: 'auto' });
+			}
+		});
+
+		TweenMax.to('#about-section', 1, {
+			marginTop: '0px', autoAlpha: 1, position: 'relative', onComplete() {
+				TweenMax.set('#about-section', { visibility: 'visible', display: 'block', height: 'auto' });
+			}
+		});
+
+		TweenMax.to('#services-section', 1, {
+			marginTop: '0px', autoAlpha: 1, position: 'relative', onComplete() {
+				TweenMax.set('#services-section', { visibility: 'visible', display: 'block', height: 'auto' });
+			}
+		});
+
+		TweenMax.to('#skills-section', 1, {
+			marginTop: '0px', autoAlpha: 1, position: 'relative', onComplete() {
+				TweenMax.set('#skills-section', { visibility: 'visible', display: 'block', height: 'auto' });
+			}
+		});
+
+		TweenMax.to('#contact-section', 1, {
+			marginTop: '0px', autoAlpha: 1, position: 'relative', onComplete() {
+				TweenMax.set('#contact-section', { visibility: 'visible', display: 'block', height: 'auto' });
+			}
+		});
+	})
 };
 
 $(document).ajaxStop(function () {
@@ -504,13 +532,43 @@ var loadPortfolioSinglePage = function (id, href) {
 				}
 			})
 
+			TweenMax.to('.posts', 1, {
+				autoAlpha: 0, visibility: 'hidden', display: 'none', onComplete() {
+					TweenMax.set('.posts', { height: 0 });
+				}
+			})
+
+			TweenMax.to('#about-section', 1, {
+				autoAlpha: 0, visibility: 'hidden', display: 'none', onComplete() {
+					TweenMax.set('#about-section', { height: 0 });
+				}
+			})
+
+			TweenMax.to('#services-section', 1, {
+				autoAlpha: 0, visibility: 'hidden', display: 'none', onComplete() {
+					TweenMax.set('#services-section', { height: 0 });
+				}
+			})
+
+			TweenMax.to('#skills-section', 1, {
+				autoAlpha: 0, visibility: 'hidden', display: 'none', onComplete() {
+					TweenMax.set('#skills-section', { height: 0 });
+				}
+			})
+
+			TweenMax.to('#contact-section', 1, {
+				autoAlpha: 0, visibility: 'hidden', display: 'none', onComplete() {
+					TweenMax.set('#contact-section', { height: 0 });
+				}
+			})
+
 			var pSingleHolder = $('#portfolio-single-holder');
 
 			var getHTMLContent = $(html).find('.portfolio-single-wrap').html();
 
 			pSingleHolder.append(
 				'<div id="portfolio-single-' + id +
-				'" class="portfolio-single-inner"><span class="close-portfolio js-close-portfolio d-flex align-items-center"><span class="close-portfolio-label">Back to Portfolio</span><span class="icon-close2 wrap-icon-close"></span></span>' + getHTMLContent + '</div>'
+				'" class="portfolio-single-inner"><span class="close-portfolio js-close-portfolio d-flex align-items-center"><span class="close-portfolio-label" id="mobile-hide">Voltar para o Portfólio</span><span class="icon-close2 wrap-icon-close"></span></span>' + getHTMLContent + '</div>'
 			);
 
 			setTimeout(function () {

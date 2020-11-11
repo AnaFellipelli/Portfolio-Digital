@@ -62,7 +62,7 @@ a, a:hover {
 }
 
 .site-inner {
-  margin-bottom: 400px;
+  margin-bottom: 220px;
   position: relative;
   width: 100%;
   z-index: 1;
@@ -522,7 +522,7 @@ a, a:hover {
   box-shadow: 0 0 10px 0 rgba(0, 0, 0, 0.1);
   padding-top: 5px;
   padding-bottom: 5px;
-  width: 100%;
+  width: 100% !important;
 }
 
 .site-nav.scrolled .burger-toggle-menu {
@@ -1697,6 +1697,12 @@ figure.dotted-bg:before {
   transition: .3s all ease;
 }
 
+@media (max-width: 991.98px) {
+  #portfolio-single-holder .close-portfolio {
+    top: -5px;
+  }
+}
+
 #portfolio-single-holder .close-portfolio .close-portfolio-label {
   font-size: 14px;
   top: 25px;
@@ -1739,7 +1745,7 @@ figure.dotted-bg:before {
 }
 
 #portfolio-single-holder .close-portfolio:hover .close-portfolio-label, #portfolio-single-holder .close-portfolio:focus .close-portfolio-label {
-  right: 20px;
+  right: 50px;
   opacity: 1;
   visibility: visible;
 }
@@ -2161,4 +2167,8 @@ span.error {
 
 #logo {
   height: 70px;
+}
+
+span.cover {
+  width: 0%;
 }
