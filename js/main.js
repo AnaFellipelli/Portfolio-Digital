@@ -457,6 +457,11 @@ var portfolioItemClick = function () {
 			loadPortfolioSinglePage(id, href);
 		}, 100);
 
+		$('html, body').animate({
+			scrollTop: $('#portfolio-section').offset().top - 50
+		}, 700, 'easeInOutExpo', function () {
+		});
+
 		e.preventDefault();
 
 	});
