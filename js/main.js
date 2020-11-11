@@ -458,7 +458,7 @@ var portfolioItemClick = function () {
 		}, 100);
 
 		$('html, body').animate({
-			scrollTop: $('#portfolio-section').offset().top
+			scrollTop: $('#portfolio-section').offset().top - 50
 		}, 700, 'easeInOutExpo', function () {
 		});
 
