@@ -178,7 +178,7 @@ a, a:hover {
 }
 
 .site-nav .site-logo {
-  z-index: 99;
+  z-index: 30;
 }
 
 .site-nav .site-logo.pos-absolute {
@@ -2157,4 +2157,8 @@ span.error {
   .second-row {
     padding-top: 0;
   }
+}
+
+#logo {
+  height: 70px;
 }
