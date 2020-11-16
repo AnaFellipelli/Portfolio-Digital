@@ -1178,6 +1178,7 @@ a, a:hover {
   font-size: 32px;
   color: #000;
   font-weight: 900;
+  font-family: "lust-display", sans-serif;
 }
 
 .heading-h2.divider:before {
@@ -1804,7 +1805,7 @@ figure.dotted-bg:before {
 .footer .footer-site-logo a {
   font-size: 30px;
   font-weight: 900;
-  font-family: "Raleway", sans-serif;
+  font-family: "lust-display", sans-serif;
   color: #000;
 }
 
