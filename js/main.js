@@ -603,68 +603,6 @@ var jarallaxPlugin = function () {
 	});
 };
 
-var contactForm = function () {
-	if ($('#contactForm').length > 0) {
-		$("#contactForm").validate({
-			rules: {
-				name: "required",
-				email: {
-					required: true,
-					email: true
-				},
-				message: {
-					required: true,
-					minlength: 5
-				}
-			},
-			messages: {
-				name: "Por favor, preencha seu nome",
-				email: "Por favor, preencha com um endereço de email válido",
-				message: "Por favor, digite sua mensagem"
-			},
-			errorElement: 'span',
-			errorLabelContainer: '.form-error',
-			/* submit via ajax */
-			submitHandler: function (form) {
-				var $submit = $('.submitting'),
-					waitText = 'Enviando...';
-
-				$.ajax({
-					type: "POST",
-					url: "php/send-email.php",
-					data: $(form).serialize(),
-
-					beforeSend: function () {
-						$submit.css('display', 'block').text(waitText);
-					},
-					success: function (msg) {
-						if (msg == 'OK') {
-							$('#form-message-warning').hide();
-							setTimeout(function () {
-								$('#contactForm').fadeOut();
-							}, 1000);
-							setTimeout(function () {
-								$('#form-message-success').fadeIn();
-							}, 1400);
-
-						} else {
-							$('#form-message-warning').html(msg);
-							$('#form-message-warning').fadeIn();
-							$submit.css('display', 'none');
-						}
-					},
-					error: function () {
-						$('#form-message-warning').html("Algo deu errado. Tente novamente.");
-						$('#form-message-warning').fadeIn();
-						$submit.css('display', 'none');
-					}
-				});
-			}
-
-		});
-	}
-};
-
 var stickyFillPlugin = function () {
 	var elements = document.querySelectorAll('.sticky');
 	Stickyfill.add(elements);

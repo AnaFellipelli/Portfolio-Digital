@@ -2,7 +2,7 @@
     background-color: #1c6fb800;
 }
 
-.site-nav.scrolled {
+.site-nav.scrolled, .site-mobile-menu.site-nav.scrolled {
     background-color: #C93B3B !important;
 }
 
@@ -22,3 +22,15 @@ a.nav-link, a.nav-link:hover {
     color: #FFFFFF !important;
     padding-bottom: 3px !important;
 }
+
+.site-nav.scrolled .site-nav-ul > li > a, .site-nav.scrolled .site-nav-ul-none-onepage > li > a {
+    color: #fff;
+}
+
+.site-nav.scrolled .site-nav-ul > li > a, .site-nav.scrolled .site-nav-ul-none-onepage > li > a:hover {
+    color: #fff;
+}
+
+.site-nav.scrolled .site-nav-ul > li > a.active, .site-nav.scrolled .site-nav-ul-none-onepage > li > a.active {
+    color: #fff;
+  }

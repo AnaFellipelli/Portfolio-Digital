@@ -2,7 +2,7 @@
     background-color: #1c6fb800;
 }
 
-.site-nav.scrolled {
+.site-nav.scrolled, .site-mobile-menu.site-nav.scrolled {
     background-color: #ffffff !important;
 }
 

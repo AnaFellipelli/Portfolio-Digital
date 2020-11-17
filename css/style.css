@@ -670,7 +670,7 @@ a, a:hover {
   padding-bottom: 10px;
   padding-left: 20px;
   padding-right: 20px;
-  color: #000;
+  color: #000 !important;
 }
 
 .site-mobile-menu ul a:hover, .site-mobile-menu ul li a:hover {
@@ -2213,4 +2213,12 @@ span.cover {
 
 .heading-portfolio-single-h2 {
   font-family: "lust-display", sans-serif;
+}
+
+.site-nav.scrolled .site-nav-ul > li > a.active, .site-nav.scrolled .site-nav-ul-none-onepage > li > .js-menu-toggle.active:before {
+  background: transparent;
+}
+
+.site-nav.scrolled .site-nav-ul > li > a.active, .site-nav.scrolled .site-nav-ul-none-onepage > li > .js-menu-toggle:before {
+  background: transparent;
 }
