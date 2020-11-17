@@ -1,0 +1,24 @@
+.site-nav {
+    background-color: #83251500;
+}
+
+.site-nav.scrolled {
+    background-color: #832515 !important;
+}
+
+.site-nav .site-nav-ul > li > a, .site-nav .site-nav-ul-none-onepage > li > a {
+    color: #FFFFFF;
+}
+
+.site-nav.scrolled .site-nav-ul > li > a, .site-nav .site-nav-ul-none-onepage > li > a {
+    color: #FFFFFF;
+}
+
+.site-nav-ul {
+    color: #FFFFFF;
+}
+
+a.nav-link, a.nav-link:hover {
+    color: #FFFFFF !important;
+    padding-bottom: 3px !important;
+}

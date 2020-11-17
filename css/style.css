@@ -1781,6 +1781,16 @@ figure.dotted-bg:before {
   color: rgba(0, 0, 0, 0.5);
 }
 
+.detail-v2 .detail-label {
+  display: block;
+  font-family: "Raleway", sans-serif;
+  font-style: italic;
+  font-size: 10px;
+  font-weight: 900;
+  letter-spacing: .1rem;
+  color: #ff0313;
+}
+
 .detail-v1 .detail-val {
   font-size: 16px;
   color: #000;
@@ -2178,4 +2188,8 @@ span.error {
 
 span.cover {
   width: 0%;
+}
+
+.heading-portfolio-single-h2 {
+  font-family: "lust-display", sans-serif;
 }
