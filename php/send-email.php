@@ -1,7 +1,7 @@
 <?php
 
 // Replace this with your own email address
-$to = 'joefrey.mahusay@gmail.com';
+$to = 'anafellipelli@gmail.com';
 
 function url(){
   return sprintf(
@@ -23,7 +23,7 @@ if($_POST) {
 
    // Set Message
    $message .= "Email from: " . $name . "<br />";
-	 $message .= "Email address: " . $email . "<br />";
+	$message .= "Email address: " . $email . "<br />";
    $message .= "Message: <br />";
    $message .= nl2br($contact_message);
    $message .= "<br /> ----- <br /> This email was sent from your site " . url() . " contact form. <br />";
@@ -35,7 +35,7 @@ if($_POST) {
 	$headers = "From: " . $from . "\r\n";
 	$headers .= "Reply-To: ". $email . "\r\n";
  	$headers .= "MIME-Version: 1.0\r\n";
-	$headers .= "Content-Type: text/html; charset=ISO-8859-1\r\n";
+	$headers .= "Content-Type: text/html; charset=UTF-8\r\n";
 
    ini_set("sendmail_from", $to); // for windows server
    $mail = mail($to, $subject, $message, $headers);
