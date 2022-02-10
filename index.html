@@ -101,7 +101,7 @@
       </nav>
       <!-- END nav -->
 
-      <div class="cover-v1 jarallax-video" id="home-section">
+      <div class="cover-v1" id="home-section" style="background-image: url('images/home_cover.gif');">
         <div class="container">
           <div class="row align-items-center">
 
@@ -144,14 +144,16 @@
 
               <div class="filter-wrap">
                 <div class="filter ml-auto" id="filters">
-                  <a href="#" class="active" data-filter="*">todos</a>
+                  <a style="font-weight: bold;" href="#" class="active" data-filter="*">todos</a>
+                  <a style="font-weight: bold;" href="#" data-filter=".academico">acadêmico</a>
+                  <a style="font-weight: bold;" href="#" data-filter=".profissional">profissional</a>
                   <a href="#" data-filter=".editorial">editorial</a>
                   <a href="#" data-filter=".embalagem">embalagem</a>
-                  <a href="#" data-filter=".lúdico">lúdico</a>
-                  <a href="#" data-filter=".tipografia">tipografia</a>
-                  <a href="#" data-filter=".web">web</a>
-
                   <a href="#" data-filter=".ilustração">ilustração</a>
+                  <a href="#" data-filter=".lúdico">lúdico</a>
+                  <a href="#" data-filter=".service_design">service design</a>
+                  <a href="#" data-filter=".tipografia">tipografia</a>
+                  <a href="#" data-filter=".ux_ui">ux/ui</a>
                 </div>
               </div>
 
@@ -160,53 +162,105 @@
 
 
             <div id="posts" class="row gutter-isotope-item">
-              <div class="item lúdico col-sm-6 col-md-6 col-lg-4 isotope-mb-2">
+              <div class="item profissional ux_ui col-sm-6 col-md-6 col-lg-4 isotope-mb-2 ">
+                <a href="projetos/a_solucao.html" class="portfolio-item item-portrait isotope-item gsap-reveal-img"
+                  data-id="1">
+                  <div class="overlay">
+                    <span class="wrap-icon icon-link2"></span>
+                    <div class="portfolio-item-content">
+                      <h3>A Solução</h3>
+                      <p>profissional, ux/ui</p>
+                    </div>
+                  </div>
+                  <img src="images/portfolio/solucao.jpg" class="lazyload img-fluid" alt="Images" />
+                </a>
+              </div>
+              <div class="item profissional ux_ui col-sm-6 col-md-6 col-lg-4 isotope-mb-2 ">
+                <a href="projetos/claro.html" class="portfolio-item item-portrait isotope-item gsap-reveal-img"
+                  data-id="1">
+                  <div class="overlay">
+                    <span class="wrap-icon icon-link2"></span>
+                    <div class="portfolio-item-content">
+                      <h3>Claro Flex</h3>
+                      <p>profissional, ux/ui</p>
+                    </div>
+                  </div>
+                  <img src="images/portfolio/claro_flex.jpg" class="lazyload img-fluid" alt="Images" />
+                </a>
+              </div>
+              <div class="item profissional service_design col-sm-6 col-md-6 col-lg-4 isotope-mb-2 ">
+                <a href="projetos/sao_martinho.html" class="portfolio-item item-portrait isotope-item gsap-reveal-img"
+                  data-id="1">
+                  <div class="overlay">
+                    <span class="wrap-icon icon-link2"></span>
+                    <div class="portfolio-item-content">
+                      <h3>São Martinho 5G</h3>
+                      <p>profissional, service design</p>
+                    </div>
+                  </div>
+                  <img src="images/portfolio/sao_martinho.png" class="lazyload img-fluid" alt="Images" />
+                </a>
+              </div>
+              <div class="item academico ux_ui col-sm-6 col-md-6 col-lg-4 isotope-mb-2 ">
+                <a href="projetos/pgd.html" class="portfolio-item item-portrait isotope-item gsap-reveal-img"
+                  data-id="1">
+                  <div class="overlay">
+                    <span class="wrap-icon icon-link2"></span>
+                    <div class="portfolio-item-content">
+                      <h3>UX App ESPM</h3>
+                      <p>acadêmico, ux/ui</p>
+                    </div>
+                  </div>
+                  <img src="images/portfolio/espm.jpg" class="lazyload img-fluid" alt="Images" />
+                </a>
+              </div>
+              <div class="item academico lúdico col-sm-6 col-md-6 col-lg-4 isotope-mb-2">
                 <a href="projetos/netflix.html" class="portfolio-item isotope-item gsap-reveal-img" data-id="1">
                   <div class="overlay">
                     <span class="wrap-icon icon-link2"></span>
                     <div class="portfolio-item-content">
                       <h3>Netflix</h3>
-                      <p>lúdico</p>
+                      <p>acadêmico, lúdico</p>
                     </div>
                   </div>
-                  <img src="images/portfolio/netflix-vertical.jpg" class="lazyload  img-fluid" alt="Images" />
+                  <img src="images/portfolio/netflix-vertical.jpg" class="lazyload img-fluid" alt="Images" />
                 </a>
               </div>
-              <div class="item editorial col-sm-6 col-md-6 col-lg-4 isotope-mb-2 ">
+              <div class="item academico editorial col-sm-6 col-md-6 col-lg-4 isotope-mb-2 ">
                 <a href="projetos/numo.html" class="portfolio-item item-portrait isotope-item gsap-reveal-img"
-                  data-id="3">
+                  data-id="1">
                   <div class="overlay">
                     <span class="wrap-icon icon-link2"></span>
                     <div class="portfolio-item-content">
                       <h3>Numo</h3>
-                      <p>editorial</p>
+                      <p>acadêmico, editorial</p>
                     </div>
                   </div>
                   <img src="images/numo.jpg" class="lazyload  img-fluid" alt="Images" />
                 </a>
               </div>
 
-              <div class="item web col-sm-6 col-md-6 col-lg-4 isotope-mb-2">
-                <a href="projetos/loup.html" class="portfolio-item isotope-item gsap-reveal-img" data-id="4">
+              <div class="item academico ux/ui col-sm-6 col-md-6 col-lg-4 isotope-mb-2">
+                <a href="projetos/loup.html" class="portfolio-item isotope-item gsap-reveal-img" data-id="1">
                   <div class="overlay">
                     <span class="wrap-icon icon-link2"></span>
                     <div class="portfolio-item-content">
                       <h3>Loup</h3>
-                      <p>web</p>
+                      <p>acadêmico, ux/ui</p>
                     </div>
                   </div>
                   <img src="images/portfolio/loup.jpg" class="lazyload  img-fluid" alt="Images" />
                 </a>
               </div>
 
-              <div class="item embalagem ilustração col-sm-6 col-md-6 col-lg-4 isotope-mb-2">
+              <div class="item academico embalagem ilustração col-sm-6 col-md-6 col-lg-4 isotope-mb-2">
 
-                <a href="projetos/temoso.html" class="portfolio-item isotope-item gsap-reveal-img" data-id="2">
+                <a href="projetos/temoso.html" class="portfolio-item isotope-item gsap-reveal-img" data-id="1">
                   <div class="overlay">
                     <span class="wrap-icon icon-link2"></span>
                     <div class="portfolio-item-content">
                       <h3>Temoso</h3>
-                      <p>embalagem, ilustração</p>
+                      <p>acadêmico, embalagem, ilustração</p>
                     </div>
                   </div>
                   <img src="images/portfolio/temoso-vertical2.jpg" class="lazyload  img-fluid" alt="Images" />
@@ -214,111 +268,111 @@
 
               </div>
 
-              <div class="item lúdico ilustração col-sm-6 col-md-6 col-lg-4 isotope-mb-2">
+              <div class="item academico lúdico ilustração col-sm-6 col-md-6 col-lg-4 isotope-mb-2">
                 <a href="projetos/sueca.html" class="portfolio-item item-portrait isotope-item gsap-reveal-img"
-                  data-id="2">
+                  data-id="1">
                   <div class="overlay">
                     <span class="wrap-icon icon-link2"></span>
                     <div class="portfolio-item-content">
                       <h3>Sueca</h3>
-                      <p>lúdico, ilustração</p>
+                      <p>acadêmico, lúdico, ilustração</p>
                     </div>
                   </div>
                   <img src="images/portfolio/sueca-vertical2.png" class="lazyload  img-fluid" alt="Images" />
                 </a>
               </div>
 
-              <div class="item tipografia col-sm-6 col-md-6 col-lg-4 isotope-mb-2">
+              <div class="item academico tipografia col-sm-6 col-md-6 col-lg-4 isotope-mb-2">
                 <a href="projetos/tipografia.html" class="portfolio-item item-portrait isotope-item gsap-reveal-img"
-                  data-id="2">
+                  data-id="1">
                   <div class="overlay">
                     <span class="wrap-icon icon-link2"></span>
                     <div class="portfolio-item-content">
                       <h3>Enchainement</h3>
-                      <p>tipografia</p>
+                      <p>acadêmico, tipografia</p>
                     </div>
                   </div>
                   <img src="images/portfolio/tipografia.jpg" class="lazyload  img-fluid" alt="Images" />
                 </a>
               </div>
 
-              <div class="item embalagem ilustração col-sm-6 col-md-6 col-lg-4 isotope-mb-2">
-                <a href="projetos/chambinho.html" class="portfolio-item isotope-item gsap-reveal-img" data-id="2"
+              <div class="item academico embalagem ilustração col-sm-6 col-md-6 col-lg-4 isotope-mb-2">
+                <a href="projetos/chambinho.html" class="portfolio-item isotope-item gsap-reveal-img" data-id="1"
                   data-caption="Modern Building">
                   <div class="overlay">
                     <span class="wrap-icon icon-link2"></span>
                     <div class="portfolio-item-content">
                       <h3>Chambinho</h3>
-                      <p>embalagem, ilustração</p>
+                      <p>acadêmico, embalagem, ilustração</p>
                     </div>
                   </div>
                   <img src="images/portfolio/chambinho.jpg" class="lazyload  img-fluid" alt="Images" />
                 </a>
               </div>
 
-              <div class="item tipografia col-sm-6 col-md-6 col-lg-4 isotope-mb-2">
-                <a href="projetos/modular.html" class="portfolio-item isotope-item gsap-reveal-img" data-id="2"
+              <div class="item academico tipografia col-sm-6 col-md-6 col-lg-4 isotope-mb-2">
+                <a href="projetos/modular.html" class="portfolio-item isotope-item gsap-reveal-img" data-id="1"
                   data-caption="Showreel 2019">
                   <div class="overlay">
                     <span class="wrap-icon icon-link2"></span>
                     <div class="portfolio-item-content">
                       <h3>Tipografia Modular</h3>
-                      <p>tipografia</p>
+                      <p>acadêmico, tipografia</p>
                     </div>
                   </div>
                   <img src="images/portfolio/livreto2.jpg" class="lazyload  img-fluid" alt="Images" />
                 </a>
               </div>
 
-              <div class="item editorial col-sm-6 col-md-6 col-lg-4 isotope-mb-2">
-                <a href="projetos/twitter.html" class="portfolio-item isotope-item gsap-reveal-img" data-id="2"
+              <div class="item academico editorial col-sm-6 col-md-6 col-lg-4 isotope-mb-2">
+                <a href="projetos/twitter.html" class="portfolio-item isotope-item gsap-reveal-img" data-id="1"
                   data-caption="Render Packaging">
                   <div class="overlay">
                     <span class="wrap-icon icon-link2"></span>
                     <div class="portfolio-item-content">
                       <h3>Twitter Moments</h3>
-                      <p>editorial </p>
+                      <p>acadêmico, editorial </p>
                     </div>
                   </div>
                   <img src="images/portfolio/twitter2.jpg" class="lazyload  img-fluid" alt="Images" />
                 </a>
 
               </div>
-              <div class="item editorial  ilustração lúdico col-sm-6 col-md-6 col-lg-4 isotope-mb-2">
-                <a href="projetos/cincomarias.html" class="portfolio-item isotope-item gsap-reveal-img" data-id="2"
+              <div class="item academico editorial  ilustração lúdico col-sm-6 col-md-6 col-lg-4 isotope-mb-2">
+                <a href="projetos/cincomarias.html" class="portfolio-item isotope-item gsap-reveal-img" data-id="1"
                   data-caption="Render Packaging">
                   <div class="overlay">
                     <span class="wrap-icon icon-link2"></span>
                     <div class="portfolio-item-content">
                       <h3>Cinco Marias</h3>
-                      <p>editorial, ilustração</p>
+                      <p>acadêmico, editorial, ilustração</p>
                     </div>
                   </div>
                   <img src="images/portfolio/cincomarias.PNG" class="lazyload  img-fluid" alt="Images" />
                 </a>
               </div>
-              <div class="item editorial col-sm-6 col-md-6 col-lg-4 isotope-mb-2">
-                <a href="projetos/rafic.html" class="portfolio-item isotope-item gsap-reveal-img" data-id="2"
+              <div class="item academico editorial col-sm-6 col-md-6 col-lg-4 isotope-mb-2">
+                <a href="projetos/rafic.html" class="portfolio-item isotope-item gsap-reveal-img" data-id="1"
                   data-caption="Shoe Rebranding">
                   <div class="overlay">
                     <span class="wrap-icon icon-link2"></span>
                     <div class="portfolio-item-content">
                       <h3>Design para Ler</h3>
-                      <p>editorial</p>
+                      <p>acadêmico, editorial</p>
                     </div>
                   </div>
                   <img src="images/portfolio/rafic2.jpg" class="lazyload  img-fluid" alt="Images" />
                 </a>
               </div>
 
-              <div class="item editorial col-sm-6 col-md-6 col-lg-4 isotope-mb-2">
-                <a href="projetos/maratona.html" class="portfolio-item isotope-item gsap-reveal-img" data-id="2"
+              <div class="item academico editorial col-sm-6 col-md-6 col-lg-4 isotope-mb-2">
+                <a href="projetos/maratona.html" class="portfolio-item isotope-item gsap-reveal-img" data-id="1"
                   data-caption="Shoe Rebranding">
                   <div class="overlay">
                     <span class="wrap-icon icon-link2"></span>
                     <div class="portfolio-item-content">
                       <h3>Maratona de Criação</h3>
-                      <p>editorial</p>
+                      <p>acadêmico, editorial</p>
                     </div>
                   </div>
                   <img src="images/portfolio/maratona.jpg" class="lazyload  img-fluid" alt="Images" />
@@ -357,7 +411,7 @@
                 necessidades reais do mercado e sobretudo nas pessoas. Desde pequena estive conectada com a arte,
                 através do Ballet clássico. O que me trouxe muita disciplina e rigorosidade, características as quais
                 carrego comigo em todos os aspectos da vida.</p>
-              <p class="gsap-reveal"><a href="curriculo/AnaFellipelli_CV (1).pdf"
+              <p class="gsap-reveal"><a href="curriculo/AnaFellipelli_CV.pdf"
                   class="btn btn-outline-pill btn-custom-light">Baixar meu CV</a></p>
             </div>
           </div>
@@ -529,17 +583,17 @@
           <div class="row justify-content-between">
 
             <div class="col-md-12">
-              <form method="post" action="mailto:anafellipelli@gmail.com" enctype="text/plain"
-                class="form-outline-style-v1" id="contactForm">
+              <form method="POST" action="" enctype="text/plain" onsubmit="setEmail()" class="form-outline-style-v1"
+                id="contactForm">
                 <div class="form-group row mb-0">
 
                   <div class="col-lg-6 form-group gsap-reveal">
-                    <label for="name">Nome</label>
-                    <input name="name" type="text" class="form-control" id="name">
+                    <label for="name">Nome Completo</label>
+                    <input name="name" type="text" class="form-control" id="email_name">
                   </div>
                   <div class="col-lg-6 form-group gsap-reveal">
-                    <label for="email">Email</label>
-                    <input name="email" type="email" class="form-control" id="email">
+                    <label for="subject">Assunto</label>
+                    <input name="subject" type="subject" class="form-control" id="subject">
                   </div>
                   <div class="col-lg-12 form-group gsap-reveal">
                     <label for="message">Escreva sua mensagem...</label>
@@ -595,6 +649,7 @@
   </div>
 
   <script src="js/scripts-dist.js"></script>
+  <script src="js/email.js"></script>
   <script src="js/main.js"></script>
 
   <script src="https://kit.fontawesome.com/9cf9b5ff70.js" crossorigin="anonymous"></script>

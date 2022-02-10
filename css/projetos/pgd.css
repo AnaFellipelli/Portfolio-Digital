@@ -1,9 +1,9 @@
 .site-nav {
-    background-color: #1c6fb800;
+    background-color: #83251500;
 }
 
 .site-nav.scrolled, .site-mobile-menu.site-nav.scrolled {
-    background-color: #000000 !important;
+    background-color: #8F0229 !important;
 }
 
 .site-nav .site-nav-ul>li>a, .site-nav .site-nav-ul-none-onepage>li>a {
